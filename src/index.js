@@ -13,6 +13,10 @@
 import mul, { add, sub } from "./math.js"; //확장자(.js)까지 붙여야함!
 //default로 내보낸 것은 {중괄호}없이 import 가능하고 이름도 바로 변경가능
 
-console.log(add(2, 2));
-console.log(sub(2, 2));
-console.log(mul(2, 3));
+import randomColor from "randomcolor";
+const color = randomColor();
+console.log(color);
+
+// console.log(add(2, 2));
+// console.log(sub(2, 2));
+// console.log(mul(2, 3));
